@@ -1,0 +1,8 @@
+<!-- FORMALIZACAO -->
+
+<button *ngIf="habilitarCancelar" (click)="cancelarProposta()" pButton type="button" label="Cancelar Proposta" class="p-button-text p-mr-2"></button>
+<button *ngIf="habilitarDEOC" (click)="irParaDEOC()" pButton type="button" label="Ir para o DEOC" class="p-button-text p-mr-2"></button>
+<button *ngIf="habilitarDevolver" (click)="devolverProposta()" pButton type="button" label="Devolver" class="p-button-text p-mr-2"></button>
+<button *ngIf="habilitarInstCredito" (click)="imprimirInstCredito()" pButton type="button" label="Imprimir Instrumento de Crédito" class="p-button-text p-mr-2"></button>
+<button *ngIf="habilitarFormalizar" (click)="formalizarProposta()" pButton type="button" label="Formalizar" class="p-mr-2"></button>
+<button *ngIf="habilitarLiberar" (click)="liberarProposta()" pButton type="button" label="Liberar" class="p-mr-2"></button>
